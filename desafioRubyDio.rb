@@ -8,6 +8,6 @@ sobrenome = gets.chomp
 
 print "Digite a sua idade: "
 
-idade = gets.to_i
+idade = gets.chomp.to_i
 
 puts "O nome do usuário é #{nome} #{sobrenome} ele(a) tem #{idade} anos!"
